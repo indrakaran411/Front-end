@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('BG1.PNG') no-repeat center center/cover;
+    
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+}
+header{
+    margin-left: 80%;
+    padding: 20px;
+}
+.headCon{
+    margin-left: 62%;
+    color: aliceblue;
+    padding: 15px;
+}
+.headCon a{
+    background-color: red;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+#Requirements{
+    
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12.4%;
+    background: linear-gradient(45deg, indigo, cyan);
+    padding: 30px;
+    height: 90%;
+}
+.heading h1{
+    margin-left: 100px;
+}
+.headCon a:hover{
+    box-shadow: 2px 2px 5px 0 white;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 300px;
+    padding: 15px;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(76, 0, 130, 0.76);
+    border-radius: 10px;
+}
+.button{
+    width: 150px;
+    padding: 8px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: rgb(80, 218, 75);
+    box-shadow: rgba(50, 50, 93, 0.25)0px 13px 27px -5px, rgba(0, 0, 0, 0.3)0px 13px 27px -5px;
+}
+.about{
+    height: 120px;
+    width: 300px;
+    padding: 0 auto;
+    border-radius: 5px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, 0.25)0px 13px 27px -5px, rgba(0, 0, 0, 0.3)0px 13px 27px -5px;
+}
+.name{
+    height: 40px;
+    width: 300px;
+    padding: 0 auto;
+    border-radius: 5px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, 0.25)0px 13px 27px -5px, rgba(0, 0, 0, 0.3)0px 13px 27px -5px;
+}
+.email{
+    height: 40px;
+    width: 300px;
+    padding: 0 auto;
+    border-radius: 5px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, 0.25)0px 13px 27px -5px, rgba(0, 0, 0, 0.3)0px 13px 27px -5px;
+}
+#contact-form{
+    display: flex;
+    justify-self: start;
+    margin-top: 20px;
+ }
+#AboutUs{
+    width: 300px;
+    color: aliceblue;
+}
+#Requirements{
+    width: 300px;
+    color: aliceblue;
+}
+ footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    padding-left: 35%;
+    
+ }
+.color{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(76, 0, 130, 0.76);
+}
+
+@media screen and (max-width: 600px) {
+    
+    header{
+        margin-left: 220px;
+    }
+    .headCon{
+        width: 400px;
+        height: auto;
+        margin-left: 25px;
+    }
+    main{
+        flex-direction: column;
+        height: 1200px;
+        background: linear-gradient(to bottom, indigo, cyan);
+    }
+    footer{
+        padding-left: 80px;
+    }
+    #AboutUs{
+        margin-left: 15px;
+        width: 400px;
+    }
+    #Requirements{
+        margin-left: 15px;
+        width: 400px;
+    }
+}
